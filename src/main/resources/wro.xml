@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<groups xmlns="http://www.isdc.ro/wro">
+
+    <group name="other">
+        <css>classpath:static/first.css</css>
+        <css>classpath:static/second.css</css>
+    </group>
+    
+</groups>
