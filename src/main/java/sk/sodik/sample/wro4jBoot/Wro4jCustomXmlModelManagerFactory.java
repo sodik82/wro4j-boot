@@ -34,6 +34,7 @@ public class Wro4jCustomXmlModelManagerFactory extends
 			@Override
 			protected InputStream getModelResourceAsStream() throws IOException {
 				String resourceLocation = "/wro.xml";
+				log.info("Loading resource {}", resourceLocation);
 				final InputStream stream = getClass().getResourceAsStream(
 						resourceLocation);
 
